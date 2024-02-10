@@ -1,0 +1,100 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    height: 25vh;
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/image/night1.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+.content{
+    color: #FFFFFF;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    color:  #7AB1D9;
+}
+
+.head a{
+    text-decoration: none;
+     color: #AED4F0;
+}
+.logo{
+    position: relative;
+    top: 4px;
+}
+.para{
+    margin-top: 5px;
+}
+.head{
+font-size: 1.5rem;
+}
+.head span{
+    position: relative;
+    top: -25px;
+    font-size: 2rem;
+    }
+.content p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #4C85A8;
+}
+.seperate{
+    background-color:#9e9b9bcc;
+    height: 0.5px;
+}
+.middle{
+    height: 90vh;
+    background-image: url('/image/night1.jpg');
+    background-size: contain;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    margin-top: 20px;
+    background-color:white;
+    height: 200px;
+    width: 300px;
+    border: 2px solid #cccc;
+    border-radius: 10px;
+}
+.middle .image:hover{
+    border: 4px solid black;
+}
+.im1{
+    background-image: url('/image/snake.png');
+    background-size: cover;
+}
+.im2{
+    background-image: url('/image/snake.png');
+    background-size: cover;
+}
+.im3{
+    background-image: url('/image/snake.png');
+    background-size: cover;
+}
+.im4{
+    background-image: url('/image/snake.png');
+    background-size: cover;
+}
